@@ -29,3 +29,34 @@ LSTM is used to build the above model.
 
 
 Test Accuracy A cieved: 95.9%
+
+
+# <b>Deployment using Flask</b>
+
+Project Structure
+This project has Three major parts :
+
+1.Comment_toxicity_prediction.ipynb - This contains code for our model to predict the toxicity of user's comment.
+
+
+2.apptoxic.py - This contains Flask APIs that receives the user's comments, computes the toxicity based on our model and returns it.
+
+
+3.templates - This folder contains the HTML template to allow user to enter the comment and displays the toxicity of that comment.
+
+<b>Running the Project</b>
+
+Run apptoxic.py 
+
+You should be able to view the homepage as below :
+![six](https://user-images.githubusercontent.com/50323219/66721508-a8830100-ee21-11e9-98e3-ab029e9427d4.JPG)
+
+Enter Your Comment in the box and hit Predict
+
+
+The Toxicity of your comment will be displayed:
+
+![five](https://user-images.githubusercontent.com/50323219/66721600-eb44d900-ee21-11e9-8881-7f2280b432c9.JPG)
+
+
+
